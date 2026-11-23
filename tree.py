@@ -103,14 +103,3 @@ class Tree:
         # Потом левое
         if trinode.left is not None:
             self.__draw_simple(trinode.left, children_prefix + "L-- ", children_prefix + "    ")
-
-
-tree = Tree()
-tree.insert(10)
-tree.insert(15)
-tree.insert(20)
-tree.insert(5)
-tree.insert(13)
-tmp = tree.find(15)
-tree.print_tree()
-tree.draw()
